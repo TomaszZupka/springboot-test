@@ -18,11 +18,11 @@ public class DemoApplication extends SpringBootServletInitializer {
 class Test {
     @GetMapping("/")
     String test() {
-        return "hello world";
+        return "hello worlda";
     }
 
     @GetMapping("/test")
     String test1() {
-        return "hello world another";
+        return "hello world anothera";
     }
 }
