@@ -20,4 +20,9 @@ class Test {
     String test() {
         return "hello world";
     }
+
+    @GetMapping("/test")
+    String test1() {
+        return "hello world another";
+    }
 }
