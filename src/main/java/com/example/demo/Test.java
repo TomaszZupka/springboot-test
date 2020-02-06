@@ -10,7 +10,7 @@ class Test {
         return "hello worlda";
     }
 
-    @GetMapping("/test")
+    @GetMapping("/api/test")
     String test1() {
         return "hello world anothera";
     }
